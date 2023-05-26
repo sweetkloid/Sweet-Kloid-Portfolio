@@ -1,6 +1,7 @@
 
-# this is a Test
-![License: MIT](https://img.shields.io/badge/license-MIT-ff69b4) 
+# Sweet-Kloid Portfolio
+Challenge 20
+
 ## Description
 none
 
@@ -17,9 +18,8 @@ none
 
 ## Usage
 
-A link to the webpage is provided here: [Webpage](https://github.com/sweetkloid/readme-generator)
+A link to the webpage is provided here:
 
-![Screenshot](images/test2.png)
 
 ## Contributing
 none
@@ -28,11 +28,11 @@ none
 none
 
 ## License
-This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.
+none
 
 ## Questions
 If you have anyquestions don't hesitate to contact us with the information listed below.
 
-You can find our GitHub here: [GitHub](https://github.com/sweetkloid/readme-generator)
+You can find our GitHub here: [GitHub](https://github.com/sweetkloid)
 
 You can email us here: coolstrawberries@gmail.com
