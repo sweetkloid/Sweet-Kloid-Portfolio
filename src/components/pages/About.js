@@ -1,13 +1,13 @@
 import React from 'react';
 import imageSrc from '../../images/image.jpg';
-
+import '../../styles/About.css';
 
 export default function About() {
   return (
-    <div>
-      <h1>Sweet-Kloid</h1>
-      <img src={imageSrc} alt="Image description" /> 
-      <p>
+    <div className="section">
+      <h1 className="title">About Me</h1>
+      <img src={imageSrc} alt="Image description"  className="img1"/> 
+      <p className="infosection">
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

@@ -1,0 +1,21 @@
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  font-size: 80px;
+  margin-top: 20px;
+}
+.img1{
+  width: 120px;
+  margin:30px;
+}
+
+.infosection{
+  margin: 50px;
+  font-size: 40px;
+  border: 5px solid lightblue;
+}
