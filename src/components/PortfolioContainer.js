@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+//importing all the pages
 import NavTabs from './NavTabs';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
-
+//defining which pages are on for open and after clicks to load those pages
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
