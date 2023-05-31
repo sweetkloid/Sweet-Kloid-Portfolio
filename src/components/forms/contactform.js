@@ -54,7 +54,7 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div className='mb-3'>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -65,7 +65,7 @@ function ContactForm() {
         />
         {errors.name && <span className="error">{errors.name}</span>}
       </div>
-      <div>
+      <div className='name'>
         <label htmlFor="email">Email Address:</label>
         <input
           type="email"
@@ -76,7 +76,7 @@ function ContactForm() {
         />
         {errors.email && <span className="error">{errors.email}</span>}
       </div>
-      <div>
+      <div className='name'>
         <label htmlFor="message">Message:</label>
         <textarea
           id="message"
