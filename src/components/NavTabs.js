@@ -3,7 +3,7 @@ import '../styles/NavTab.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    
+
     <ul className="nav nav-tabs info">
       <li className='name'>
         <h1 className='title'>SweetKloid</h1>
@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-  
+
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
           <h1 className='titles'>About Me</h1>
@@ -34,6 +34,15 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           <h1 className='titles'>Contact</h1>
+        </a>
+      </li>
+      <li className="nav-item resume">
+        <a
+          href="../assets/fake.pdf" // Replace with the actual path to your resume file
+          download="resume.pdf" // Specify the filename for the downloaded file
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          <h1 className='titles'>Resume</h1>
         </a>
       </li>
     </ul>

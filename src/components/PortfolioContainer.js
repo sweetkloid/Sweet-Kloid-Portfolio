@@ -4,6 +4,7 @@ import NavTabs from './NavTabs';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Footer from './footer';
 
 //defining which pages are on for open and after clicks to load those pages
 export default function PortfolioContainer() {
@@ -16,7 +17,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Contact />;
+      return <Contact />;
+  
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -25,6 +27,7 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
