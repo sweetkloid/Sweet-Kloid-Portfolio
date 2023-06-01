@@ -53,8 +53,8 @@ function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className='mb-3'>
+    <form onSubmit={handleSubmit} className='contact-form'>
+      <div className='name'>
         <label htmlFor="name">Name:</label>
         <input
           type="text"

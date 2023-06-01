@@ -1,13 +1,22 @@
 .info{
   display: flex;
+  background-image: url('../images/navbar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 .about, .portfolio, .contact{
-  margin: 20px;
+  margin-top: 60px;
+  margin-left: 100px;
   font-size: 30px;
+
 }
 
 .name{
-  margin-top: 30px;
-  margin-left: 20px;
-  font-size: 30px;
+  color: aqua;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+.titles{
+  color: rgb(154, 254, 254);
 }

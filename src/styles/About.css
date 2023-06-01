@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: azure;
+ 
 }
 
 .title{
@@ -15,7 +17,8 @@
 }
 
 .infosection{
-  margin: 50px;
+  margin: 40px;
   font-size: 40px;
-  border: 5px solid lightblue;
+  border: 5px solid rgba(178, 237, 255, 0.46);
+  padding: 50px;
 }

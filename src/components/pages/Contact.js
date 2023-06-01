@@ -5,7 +5,7 @@ import '../forms/form.css';
 export default function Contact() {
   return (
     <div className='forms'>
-      <h1>Contact Us</h1>
+      <h1 className='title1'>Contact Us</h1>
       <ContactForm />
     </div>
   );
