@@ -45,7 +45,7 @@ function ContactForm() {
     setErrors({});
 
     console.log(formData);
-
+    //clear out data after submit
     setFormData({
       name: '',
       email: '',
