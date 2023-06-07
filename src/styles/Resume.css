@@ -1,0 +1,37 @@
+.section3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.661);
+}
+
+.intro{
+  font-size: 60px;
+  margin: 10px;
+}
+
+.types{
+  font-size: 30px;
+  margin: 10px;
+}
+.types2{
+  font-size: 40px;
+  margin: 10px;
+}
+.downloadme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+button{
+  background-color: rgb(127, 204, 255);
+  color: rgb(1, 47, 87);
+  width: 150px;
+  padding: 5px;
+}
+
+ul{
+  font-size: 30px;
+}
