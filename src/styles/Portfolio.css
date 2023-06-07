@@ -11,43 +11,62 @@
 }
 .img2{
   display: block;
-  width: 500px;
-  height: 270px;
-  margin: 50px;
-  opacity: 85%;
+  width: 600px;
+  height: 350px;
+  margin: 50px; 
+  opacity: 80%;
 }
 .images2{
   display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
 }
+
+.images2 img{
+  flex-basis: 50%;
+}
+
 .images1{
   position: relative;
 }
 
-.overlay {
+.content{
   position: absolute;
-  top: 50px;
-  bottom: 0;
-  left: 50px;
-  height: 270px;
-  width: 500px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008bba20;
-}
-
-.images1:hover .overlay{
-  opacity: 100%;
 }
 
 .text{
-  color: rgb(20, 160, 192);
+  color: rgb(26, 201, 241);
   font-size: 40px;
   position: absolute;
-  bottom: 10px;
-  left: 200px;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  bottom: 170px;
+  left: 170px;
+  margin: 10px;
+}
+ .subicon{
+  width: 40px;
+  position: absolute;
+  bottom: 250px;
+  left: 350px;
+ }
+
+ .text:hover, .subicon:hover{ 
+  color: rgb(116, 246, 255);
+  opacity: 100%;
+  font-weight: bold;
+  font-size: 40px;
+  width: 45px;
+ }
+ 
+ .images1 .content {
+  display: none;
  
 }
+.images1:hover .img2{
+  opacity: 50%;
+}
+.images1:hover .content {
+  display: block;  
+}
+
+
 

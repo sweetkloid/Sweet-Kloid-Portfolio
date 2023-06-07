@@ -1,7 +1,7 @@
 import React from "react";
 //importing the container to be added on app
-import PortfolioContainer from "./components/PortfolioContainer";
+import Projects from "./components/Projects";
 //adding it to the main page
-const App = () => <PortfolioContainer />;
+const App = () => <Projects />;
 
 export default App;

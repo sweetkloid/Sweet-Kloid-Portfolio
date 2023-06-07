@@ -4,10 +4,11 @@ import NavTabs from './NavTabs';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Footer from './footer';
 
 //defining which pages are on for open and after clicks to load those pages
-export default function PortfolioContainer() {
+export default function Projects() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
@@ -17,7 +18,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
+    if (currentPage === 'Contact') {
       return <Contact />;
+    }
+      return <Resume />;
   
   };
 

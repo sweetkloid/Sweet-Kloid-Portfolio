@@ -18,9 +18,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           <h1 className='titles'>About Me</h1>
         </a>
       </li>
-      <li className="nav-item portfolio">
+      <li className="nav-item projects">
         <a
-          href="#portfolio"
+          href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
@@ -38,8 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item resume">
         <a
-          href="../assets/fake.pdf" // Replace with the actual path to your resume file
-          download="resume.pdf" // Specify the filename for the downloaded file
+          onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           <h1 className='titles'>Resume</h1>
