@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sweet-Kloid-Portfolio/static/css/main.035adba2.css",
-    "main.js": "/Sweet-Kloid-Portfolio/static/js/main.2635516e.js",
+    "main.js": "/Sweet-Kloid-Portfolio/static/js/main.1c608c9f.js",
     "static/media/image.jpg": "/Sweet-Kloid-Portfolio/static/media/image.17795632da4a567a6152.jpg",
     "static/media/ph2.PNG": "/Sweet-Kloid-Portfolio/static/media/ph2.f699ea9697bf5add0c85.PNG",
     "static/media/ph5.PNG": "/Sweet-Kloid-Portfolio/static/media/ph5.e2fd01eeb5c2c44dade3.PNG",
@@ -13,10 +13,10 @@
     "static/media/ph4.png": "/Sweet-Kloid-Portfolio/static/media/ph4.76791743b10fdf7a9539.png",
     "index.html": "/Sweet-Kloid-Portfolio/index.html",
     "main.035adba2.css.map": "/Sweet-Kloid-Portfolio/static/css/main.035adba2.css.map",
-    "main.2635516e.js.map": "/Sweet-Kloid-Portfolio/static/js/main.2635516e.js.map"
+    "main.1c608c9f.js.map": "/Sweet-Kloid-Portfolio/static/js/main.1c608c9f.js.map"
   },
   "entrypoints": [
     "static/css/main.035adba2.css",
-    "static/js/main.2635516e.js"
+    "static/js/main.1c608c9f.js"
   ]
 }
