@@ -39,8 +39,8 @@ export default function Portfolio() {
           <img src={imageThree} alt="Image description" className='img2'/> 
           </div>
          <div class="content">
-          <a href='' class="text">Project 3</a>
-          <a href=''>
+          <a href='streamversee.herokuapp.com/' class="text">STREAMVERSE</a>
+          <a href='https://github.com/emilymclean94/movie-nova'>
             <img src={icon} alt="Image description" class="subicon"/> 
           </a>
           </div>        
