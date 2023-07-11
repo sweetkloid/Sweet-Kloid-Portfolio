@@ -8,12 +8,7 @@ export default function About() {
       <h1 className="title">About Me</h1>
       <img src={imageSrc} alt="Image description"  className="img1"/> 
       <p className="infosection">
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Full-stack JavaScript developer with a background in animal care. I trained at the University of Central Florida boot camp to earn a certificate in full stack web development focused on JavaScript. It was a dream on and off as a kid to learn coding. I took a MATLAB coding class back in college and really enjoyed the challenge. Teamwork and creativity are always my go to when looking for a job to build my skills building projects.
       </p>
     </div>
   );
